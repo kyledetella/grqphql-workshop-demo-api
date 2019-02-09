@@ -1,0 +1,21 @@
+{
+  "name": "graphql-workshop-demo-api",
+  "description": "",
+  "dependencies": {
+    "apollo-datasource-rest": "latest",
+    "apollo-server": "2.1.0",
+    "apollo-server-express": "2.4.0",
+    "express": "4.16.4",
+    "graphql": "14.0.2"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 4000"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "nodemon": "1.18.4"
+  }
+}
